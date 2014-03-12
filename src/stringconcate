@@ -1,0 +1,21 @@
+public class StringConcateOperation {
+	static String str1 = "Rama Krishna ";
+	static String str2 = "Mission";
+
+	public static void main(String[] args) {
+		int len = 0;
+		
+		do {
+			if (len<(str1.length())-(str1.length()-1)) {
+				System.out.print(str1);
+				
+			
+			} else {
+				System.out.println(str2);
+				break;
+			}
+			len++;
+
+		}while(len<=str1.length());
+	}
+}
